@@ -12,7 +12,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://exercise-trainer-backend-new.onrender.com",  # Add your frontend URL here
+    "https://exercise-trainer-backend-new-1.onrender.com",  # Add your frontend URL here
 ]
 
 app.add_middleware(
@@ -338,3 +338,4 @@ async def get_upload_url(req: UploadUrlRequest):
 @app.get("/")
 async def root():
     return {"message": "FormPerfect API v2.0 - Enhanced Analysis"}
+
