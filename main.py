@@ -12,7 +12,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://your-frontend-url.onrender.com",  # Add your frontend URL here
+    "https://exercise-trainer-backend-new.onrender.com",  # Add your frontend URL here
 ]
 
 app.add_middleware(
